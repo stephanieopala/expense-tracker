@@ -7,7 +7,7 @@ function TransactionList() {
 
     return (
         <>
-            <h3>Last Transactions</h3>
+            <h3>Lastest Transactions</h3>
             <ul className="list">
                 { transactions.map(transaction => (
                     <TransactionDetail transaction={transaction} key={transaction.id}/>
